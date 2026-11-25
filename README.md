@@ -3,11 +3,10 @@
 Website, admin panel and internal management system for the IEEE Zewail City Student Branch.
 
 ```
-corepack enable
 cp .env.example .env
 docker compose up -d
-pnpm install
-pnpm dev
+npm install
+npm run dev
 ```
 
 - Public site: http://localhost:3000
